@@ -66,7 +66,7 @@ Este proyecto fue desarrollado como prototipo funcional para demostrar la aplica
 
 ## Autor
 
-Carlos Barrueta  
+Ing. Carlos Barrueta  
 Maestría en Ciencia de Desarrollo de Software
 
 https://github.com/Ing-1481/sistema-citas-medicas-hci/tree/main
