@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Citas Médicas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Gestión de Citas Médicas</h1>
+
+    <form id="citaForm">
+      <input type="hidden" id="citaId" />
+
+      <label>Paciente</label>
+      <input type="text" id="paciente" required />
+
+      <label>Doctor</label>
+      <input type="text" id="doctor" required />
+
+      <label>Especialidad</label>
+      <input type="text" id="especialidad" required />
+
+      <label>Fecha</label>
+      <input type="date" id="fecha" required />
+       <label>Hora</label>
+       <input type="time" id="hora" required>
+
+      <label>Estado</label>
+      <select id="estado">
+        <option value="pendiente">Pendiente</option>
+        <option value="confirmada">Confirmada</option>
+        <option value="cancelada">Cancelada</option>
+      </select>
+
+      <button type="submit">Guardar Cita</button>
+    </form>
+
+    <h2>Listado de Citas</h2>
+    <div id="listaCitas"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
